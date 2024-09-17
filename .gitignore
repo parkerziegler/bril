@@ -2,6 +2,7 @@ build/
 book/
 venv/
 node_modules/
+dist/
 .hypothesis/
 .pytest_cache/
 hypothesis_*
