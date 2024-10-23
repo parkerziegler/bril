@@ -1,0 +1,24 @@
+{
+  "name": "task-3",
+  "version": "1.0.0",
+  "description": "Task 3 for CS 265: Compiler Optimization at UC Berkeley, Fall 2024",
+  "type": "module",
+  "packageManager": "pnpm@9.12.1",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^20.16.11",
+    "eslint": "^9.10.0",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.5.0"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}
