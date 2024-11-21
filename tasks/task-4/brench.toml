@@ -1,0 +1,11 @@
+# which benchmarks to run
+benchmarks = '../../benchmarks/**/*.bril'
+# how to extract the performance metric from stderr
+extract = 'total_dyn_inst: (\d+)'
+timeout = 15
+
+[runs.baseline]
+pipeline = ["bril2json",  "brili -p {args}"]
+
+[runs.opt]
+pipeline = ["bril2json", "node dist/index.js", "brili -p {args}"]
